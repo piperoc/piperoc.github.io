@@ -1,11 +1,13 @@
-<html>
-<head>
+---
+layout: default
+---
+
 <script>
 $('a[data-mail]').on('click', function() {
         window.location = 'mailto:' + $(this).data('mail')+'@'+ $(this).data('domain')+'?subject=Contact from website';
 });
 </script>
-</head>
+
 <body>
 
 <h2>Demo JavaScript in Head</h2>
